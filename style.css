@@ -72,9 +72,13 @@ color: #000000;
   }
 
   @font-face {
-    font-family: jazz;
-    src: url(/fonts/jazz.otf);
-  }
+    font-family: 'jazz';
+    src: url('fonts/jazz-webfont.woff2') format('woff2'),
+         url('fonts/jazz-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 .active {
   background-color: rgb(219, 215, 207);
